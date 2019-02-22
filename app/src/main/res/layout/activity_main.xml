@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
+    android:paddingTop="15dp"
     >
 
     <Button
@@ -20,6 +21,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/btn_family"
         android:text="Family"
         android:textSize="20sp"
         android:padding="20dp"
@@ -28,6 +30,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/btn_animals"
         android:text="Animals"
         android:textSize="20sp"
         android:padding="20dp"
@@ -35,6 +38,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/btn_greetings"
         android:text="Greetings"
         android:textSize="20sp"
         android:padding="20dp"
@@ -42,6 +46,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/btn_transportation"
         android:text="Transportation"
         android:textSize="20sp"
         android:padding="20dp"
@@ -50,6 +55,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/btn_places"
         android:text="Places"
         android:textSize="20sp"
         android:padding="20dp"
@@ -58,6 +64,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/btn_basics"
         android:text="Basics"
         android:textSize="20sp"
         android:padding="20dp"

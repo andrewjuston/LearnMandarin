@@ -9,7 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NumbersActivity"></activity>
+        <activity android:name=".Animals"
+            android:label="Animals"/>
+        <activity android:name=".Places"
+            android:label="Places"/>
+        <activity android:name=".Greetings"
+            android:label="Greetings"/>
+        <activity android:name=".Transportation"
+            android:label="Transportation"/>
+        <activity android:name=".Families"
+            android:label="Families"/>
+        <activity android:name=".Basics"
+            android:label="Basics"/>
+        <activity android:name=".NumbersActivity"
+            android:label="Numbers"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

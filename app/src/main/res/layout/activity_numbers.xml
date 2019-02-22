@@ -4,136 +4,152 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NumbersActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".NumbersActivity">
 
     <RelativeLayout
+        android:id="@+id/rl_zero"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/rl_zero">
+        android:layout_height="wrap_content">
+
         <TextView
+            android:id="@+id/tx_zero"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:id="@+id/tx_zero"
             android:paddingTop="35dp"
             android:text="0"
-            android:textSize="30sp"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
         <Button
+            android:id="@+id/btn_zero"
             android:layout_width="300dp"
             android:layout_height="100dp"
-            android:id="@+id/btn_zero"
             android:layout_toRightOf="@id/tx_zero"
+            android:text="ling"
             android:textAllCaps="false"
-            android:textSize="25sp"
-            android:text="ling" />
+            android:textSize="25sp" />
 
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/rl_one"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/rl_one">
+        android:layout_height="wrap_content">
+
         <TextView
+            android:id="@+id/tx_one"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:id="@+id/tx_one"
             android:paddingTop="35dp"
             android:text="1"
-            android:textSize="30sp"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
         <Button
+            android:id="@+id/btn_one"
             android:layout_width="300dp"
             android:layout_height="100dp"
-            android:id="@+id/btn_one"
             android:layout_toRightOf="@id/tx_one"
+            android:text="yi"
             android:textAllCaps="false"
-            android:textSize="25sp"
-            android:text="yi" />
+            android:textSize="25sp" />
     </RelativeLayout>
+
     <RelativeLayout
+        android:id="@+id/rl_two"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/rl_two">
+        android:layout_height="wrap_content">
+
         <TextView
+            android:id="@+id/tx_two"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:id="@+id/tx_two"
             android:paddingTop="35dp"
             android:text="2"
-            android:textSize="30sp"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
         <Button
+            android:id="@+id/btn_two"
             android:layout_width="300dp"
             android:layout_height="100dp"
-            android:id="@+id/btn_two"
             android:layout_toRightOf="@id/tx_two"
+            android:text="er"
             android:textAllCaps="false"
-            android:textSize="25sp"
-            android:text="er" />
+            android:textSize="25sp" />
     </RelativeLayout>
+
     <RelativeLayout
+        android:id="@+id/rl_three"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/rl_three">
+        android:layout_height="wrap_content">
+
         <TextView
+            android:id="@+id/tx_three"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:id="@+id/tx_three"
             android:paddingTop="35dp"
             android:text="3"
-            android:textSize="30sp"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
         <Button
+            android:id="@+id/btn_three"
             android:layout_width="300dp"
             android:layout_height="100dp"
-            android:id="@+id/btn_three"
             android:layout_toRightOf="@id/tx_three"
+            android:text="san"
             android:textAllCaps="false"
-            android:textSize="25sp"
-            android:text="san" />
+            android:textSize="25sp" />
     </RelativeLayout>
+
     <RelativeLayout
+        android:id="@+id/rl_four"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/rl_four">
+        android:layout_height="wrap_content">
+
         <TextView
+            android:id="@+id/tx_four"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:id="@+id/tx_four"
             android:paddingTop="35dp"
             android:text="4"
-            android:textSize="30sp"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
         <Button
+            android:id="@+id/btn_four"
             android:layout_width="300dp"
             android:layout_height="100dp"
-            android:id="@+id/btn_four"
             android:layout_toRightOf="@id/tx_four"
+            android:text="si"
             android:textAllCaps="false"
-            android:textSize="25sp"
-            android:text="si" />
+            android:textSize="25sp" />
     </RelativeLayout>
+
     <RelativeLayout
+        android:id="@+id/rl_five"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/rl_five">
+        android:layout_height="wrap_content">
+
         <TextView
+            android:id="@+id/tx_five"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:id="@+id/tx_five"
             android:paddingTop="35dp"
             android:text="5"
-            android:textSize="30sp"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
         <Button
+            android:id="@+id/btn_five"
             android:layout_width="300dp"
             android:layout_height="100dp"
-            android:id="@+id/btn_five"
             android:layout_toRightOf="@id/tx_five"
+            android:text="wu"
             android:textAllCaps="false"
-            android:textSize="25sp"
-            android:text="wu" />
+            android:textSize="25sp" />
     </RelativeLayout>
 
 </LinearLayout>
